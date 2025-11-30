@@ -9,18 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "next": "^14.2.33",
+    "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "replicate": "^1.4.0",
-    "tone": "^14.7.77"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "react-dom": "^18"
   }
 }
