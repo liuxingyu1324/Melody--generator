@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI旋律画布 - 智能音乐生成平台</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #fff, #f0f0f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .btn {
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 1rem;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 AI旋律画布</h1>
+        <p style="font-size: 1.2rem; opacity: 0.9; margin-bottom: 2rem;">
+            智能音乐生成平台 - 即将精彩呈现
+        </p>
+        
+        <button class="btn" onclick="showDemo()">
+            🎤 体验演示功能
+        </button>
+        
+        <div id="demo" style="display: none; margin-top: 2rem; padding: 1.5rem; 
+              background: rgba(255,255,255,0.1); border-radius: 10px;">
+            <p>🚀 完整功能开发中...</p>
+            <p>💡 基于AI的智能旋律识别与生成</p>
+            <p>🎹 多乐器音色支持</p>
+            <p>🌍 实时云端处理</p>
+        </div>
+    </div>
+
+    <script>
+        function showDemo() {
+            document.getElementById('demo').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
